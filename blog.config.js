@@ -18,8 +18,8 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // Support for Menu type: Starting from version 3.12.0, various themes will gradually support flexible secondary menu configurations, replacing the original Page type. This configuration is an experimental feature and is disabled by default.
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Mindset', // Your nickname, for example, tangly1024.
-  BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // Author's biography
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // Website address
+  BIO: process.env.NEXT_PUBLIC_BIO || '', // Author's biography
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://mindset.onthewifi.com', // Website address
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'mindset, news, blog, trading, e-commerce, health', // Website keywords, separated by English commas
 
   // Social media links, leave blank if not needed, for example, CONTACT_WEIBO:''
@@ -229,11 +229,11 @@ const BLOG = {
   DIFY_CHATBOT_BASE_URL: process.env.NEXT_PUBLIC_DIFY_CHATBOT_BASE_URL || '',
   DIFY_CHATBOT_TOKEN: process.env.NEXT_PUBLIC_DIFY_CHATBOT_TOKEN || '',
   // 悬浮挂件
-  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || true, // 是否显示宠物挂件
+  WIDGET_PET: process.env.NEXT_PUBLIC_WIDGET_PET || false, // 是否显示宠物挂件
   WIDGET_PET_LINK:
         process.env.NEXT_PUBLIC_WIDGET_PET_LINK ||
         'https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json', // 挂件模型地址 @see https://github.com/xiazeyu/live2d-widget-models
-  WIDGET_PET_SWITCH_THEME: process.env.NEXT_PUBLIC_WIDGET_PET_SWITCH_THEME || true, // 点击宠物挂件切换博客主题
+  WIDGET_PET_SWITCH_THEME: process.env.NEXT_PUBLIC_WIDGET_PET_SWITCH_THEME || false, // 点击宠物挂件切换博客主题
 
   // 音乐播放插件
   MUSIC_PLAYER: process.env.NEXT_PUBLIC_MUSIC_PLAYER || false, // 是否使用音乐播放插件
@@ -341,27 +341,27 @@ const BLOG = {
   COMMENT_WALINE_SERVER_URL: process.env.NEXT_PUBLIC_WALINE_SERVER_URL || '', // 请配置完整的Waline评论地址 例如 hhttps://preview-waline.tangly1024.com @see https://waline.js.org/guide/get-started.html
   COMMENT_WALINE_RECENT: process.env.NEXT_PUBLIC_WALINE_RECENT || false, // 最新评论
 
-  // 此评论系统基于WebMention，细节可参考https://webmention.io
-  // 它是一个基于IndieWeb理念的开放式评论系统，下方COMMENT_WEBMENTION包含的属性皆需配置：
-  // ENABLE: 是否开启
-  // AUTH: Webmention使用的IndieLogin，可使用Twitter或Github个人页面连结
-  // HOSTNAME: Webmention绑定之网域，通常即为本站网址
-  // TWITTER_USERNAME: 评论显示区域需要的资讯
-  // TOKEN: Webmention的API token
+ // This commenting system is based on WebMention, details can be found at https://webmention.io
+ // It is an open commenting system based on the IndieWeb concept. The attributes contained in COMMENT_WEBMENTION below need to be configured:
+ // ENABLE: Whether to enable
+ // AUTH: IndieLogin used by Webmention, can be linked to Twitter or Github personal pages
+ // HOSTNAME: The domain bound by Webmention, usually the website URL
+ // TWITTER_USERNAME: Information required for the comment display area
+ // TOKEN: Webmention's API token
   COMMENT_WEBMENTION_ENABLE: process.env.NEXT_PUBLIC_WEBMENTION_ENABLE || false,
   COMMENT_WEBMENTION_AUTH: process.env.NEXT_PUBLIC_WEBMENTION_AUTH || '',
   COMMENT_WEBMENTION_HOSTNAME: process.env.NEXT_PUBLIC_WEBMENTION_HOSTNAME || '',
   COMMENT_WEBMENTION_TWITTER_USERNAME: process.env.NEXT_PUBLIC_TWITTER_USERNAME || '',
   COMMENT_WEBMENTION_TOKEN: process.env.NEXT_PUBLIC_WEBMENTION_TOKEN || '',
 
-  // <---- 评论插件
+ // <---- Comment Plugin
 
-  // ----> 站点统计
-  ANALYTICS_VERCEL: process.env.NEXT_PUBLIC_ANALYTICS_VERCEL || false, // vercel自带的统计 https://vercel.com/docs/concepts/analytics/quickstart https://github.com/tangly1024/NotionNext/issues/897
-  ANALYTICS_BUSUANZI_ENABLE: process.env.NEXT_PUBLIC_ANALYTICS_BUSUANZI_ENABLE || true, // 展示网站阅读量、访问数 see http://busuanzi.ibruce.info/
-  ANALYTICS_BAIDU_ID: process.env.NEXT_PUBLIC_ANALYTICS_BAIDU_ID || '', // e.g 只需要填写百度统计的id，[baidu_id] -> https://hm.baidu.com/hm.js?[baidu_id]
-  ANALYTICS_CNZZ_ID: process.env.NEXT_PUBLIC_ANALYTICS_CNZZ_ID || '', // 只需要填写站长统计的id, [cnzz_id] -> https://s9.cnzz.com/z_stat.php?id=[cnzz_id]&web_id=[cnzz_id]
-  ANALYTICS_GOOGLE_ID: process.env.NEXT_PUBLIC_ANALYTICS_GOOGLE_ID || '', // 谷歌Analytics的id e.g: G-XXXXXXXXXX
+ // ----> Site Statistics
+  ANALYTICS_VERCEL: process.env.NEXT_PUBLIC_ANALYTICS_VERCEL || false, // Vercel's built-in analytics https://vercel.com/docs/concepts/analytics/quickstart https://github.com/tangly1024/NotionNext/issues/897
+  ANALYTICS_BUSUANZI_ENABLE: process.env.NEXT_PUBLIC_ANALYTICS_BUSUANZI_ENABLE || true, // Display website page views and visitor count see http://busuanzi.ibruce.info/
+  ANALYTICS_BAIDU_ID: process.env.NEXT_PUBLIC_ANALYTICS_BAIDU_ID || '', // e.g You only need to fill in the Baidu Analytics ID.，[baidu_id] -> https://hm.baidu.com/hm.js?[baidu_id]
+  ANALYTICS_CNZZ_ID: process.env.NEXT_PUBLIC_ANALYTICS_CNZZ_ID || '', // You only need to fill in the webmaster statistics ID., [cnzz_id] -> https://s9.cnzz.com/z_stat.php?id=[cnzz_id]&web_id=[cnzz_id]
+  ANALYTICS_GOOGLE_ID: process.env.NEXT_PUBLIC_ANALYTICS_GOOGLE_ID || 'G-09RMV566WX', // Google Analytics ID, e.g., G-XXXXXXXXXX
 
   // 51la 站点统计 https://www.51.la/
   ANALYTICS_51LA_ID: process.env.NEXT_PUBLIC_ANALYTICS_51LA_ID || '', // id，在51la后台获取 参阅 https://docs.tangly1024.com/article/notion-next-51-la
