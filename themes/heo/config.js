@@ -23,18 +23,18 @@ const CONFIG = {
   HEO_HERO_TITLE_LINK: 'https://mindset.onthewifi.com',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: 'Must-see selection.', url: 'tag/Forex' },
+  HEO_HERO_CATEGORY_2: { title: 'Popular articles.', url: '/tag' },
+  HEO_HERO_CATEGORY_3: { title: 'Practical tutorials.', url: '/tag' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
+  HEO_HERO_RECOMMEND_POST_TAG: 'Forex',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
+    'Start',
     '🔍 Share and Help with Enthusiasm',
     '🤝 Specialization in Interaction and Design',
     '🏃 Down-to-earth Action-oriented',
@@ -106,7 +106,7 @@ const CONFIG = {
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: 'Communication Channel',
-  HEO_SOCIAL_CARD_TITLE_2: 'Join our community for discussion and sharing.',
+  HEO_SOCIAL_CARD_TITLE_2: 'Join our community.',
   HEO_SOCIAL_CARD_TITLE_3: 'Click to join the community',
   HEO_SOCIAL_CARD_URL: 'https://discord.com/servers/mindset-community-783713892131536927',
 
