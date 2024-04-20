@@ -1,12 +1,13 @@
 const CONFIG = {
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2024-01-06', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: 'Store', url: 'https://mindset.onthewifi.com' },
-    { title: null, url: 'https://mindset.onthewifi.com' }
+    { title: 'Mindset - Latest Posts', url: 'https://mindset.onthewifi.com' },
+    { title: 'Store - Get elevated', url: 'https://payhip.com/mindsetstore' },
+    { title: 'Discord Server', url: 'https://discord.com/servers/mindset-community-783713892131536927' }
   ],
 
   // 英雄区左右侧组件颠倒位置
