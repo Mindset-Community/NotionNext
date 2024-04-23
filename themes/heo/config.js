@@ -101,7 +101,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: 'Communication Channel',
   HEO_SOCIAL_CARD_TITLE_2: null,
   HEO_SOCIAL_CARD_TITLE_3: 'Click to join the community',
-  HEO_SOCIAL_CARD_URL: 'https://discord.com/servers/mindset-community-783713892131536927',
+  HEO_SOCIAL_CARD_URL: 'https://mindset.onthewifi.com/?theme=starter',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置

@@ -16,8 +16,8 @@ const CONFIG = {
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'Start your experience now!', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL: 'https://nas.io/mindset-community-lc9k', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: 'Discord Server', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://discord.com/servers/mindset-community-783713892131536927', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: null, // 英雄区按钮2的图标，不需要则留空
 
   STARTER_HERO_PREVIEW_IMAGE: 'https://www.youtube.com/embed/92JawhgmzaA?si=PIeMuEsLCIDlZeQk', // 产品预览图 ，默认读取public目录下图片
@@ -35,25 +35,25 @@ const CONFIG = {
   STARTER_FEATURE_TEXT_1: 'The main features', // 特性
   STARTER_FEATURE_TEXT_2: null, // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
-  STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_TITLE_1: 'Digital Content', // 特性1
+  STARTER_FEATURE_1_TEXT_1: 'Explore our digital content offering ebooks, resources, courses, and more!', // 特性1
+  STARTER_FEATURE_1_BUTTON_TEXT: 'Learn More', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: 'https://nas.io/member/products', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
-  STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
-  STARTER_FEATURE_2_BUTTON_URL: 'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
+  STARTER_FEATURE_2_TITLE_1: 'Events', // 特性2
+  STARTER_FEATURE_2_TEXT_1: 'Discover our upcoming events and join us for enriching experiences!', // 特性2
+  STARTER_FEATURE_2_BUTTON_TEXT: 'Learn More', // 特性2
+  STARTER_FEATURE_2_BUTTON_URL: 'https://nas.io/member/events', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
-  STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
+  STARTER_FEATURE_3_TITLE_1: 'Chat Access', // 特性3
+  STARTER_FEATURE_3_TEXT_1: 'Gain chat access for real-time communication and support.', // 特性3
+  STARTER_FEATURE_3_BUTTON_TEXT: 'Learn More', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: 'https://nas.io/member', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
-  STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
+  STARTER_FEATURE_4_TITLE_1: 'Challenges', // 特性4
+  STARTER_FEATURE_4_TEXT_1: 'Take on our challenges and achieve new heights!', // 特性4
+  STARTER_FEATURE_4_BUTTON_TEXT: 'Learn More', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: 'https://nas.io/member/challenges', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
@@ -116,52 +116,53 @@ const CONFIG = {
         "I've been a member of Mindset for months now, and I can't imagine my workflow without it. The community is fantastic, and the perks that come with membership keep getting better. It's worth every penny!",
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Ryan_G',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Ryan`Log 站长',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Ryan',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Sample Testimonial',
+      STARTER_TESTIMONIALS_ITEM_URL: 'https://mindset.onthewifi.com/'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
         "Joining Mindset has been a game-changer for me. The value I get from the exclusive content and resources is unmatched. It's like having a whole team of experts at my fingertips!",
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Asenkits',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '阿森的百宝袋 站长',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://asenkits.top/'
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'James',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Sample Testimonial',
+      STARTER_TESTIMONIALS_ITEM_URL: 'https://mindset.onthewifi.com/'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        '呜呜呜，经过一个下午的努力，终于把博客部署好啦，非常感谢Tangly1024大佬的框架和教程，这是我有生之年用过的最好用的博客框架┭┮﹏┭┮。从今之后，我就可以在自己的博客里bb啦，( •̀ ω •́ )y ',
+        "I can't imagine my life without this mindset community now. The connections I've made and the knowledge I've gained have enriched my life in ways I never thought possible. The regular events and resources keep me motivated and focused on my personal development journey. Grateful to be a part of such a supportive and uplifting community!",
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F6c096b44-beb9-48ee-8f92-1efdde47f3a3%2F338962f1-d352-49c7-9a1b-746e35a7005c%2Fhf.png?table=block&id=ce5a48a9-d77a-4843-a3d9-a78cd4f794ce&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '且听风吟 站长',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Sarah',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Sample Testimonial',
+      STARTER_TESTIMONIALS_ITEM_URL: 'https://mindset.onthewifi.com/'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        '感谢提供这么好的项目哈哈 之前一直不知道怎么部署(别的项目好难好复杂)这个相对非常简单 新手非常友好哦',
+        'Being part of this mindset community has been incredibly transformative. The discussions, insights, and tools shared have helped me break through limiting beliefs and cultivate a growth mindset. I have found a sense of belonging and encouragement that has propelled me towards personal and professional growth. Highly recommended!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'AI资源分享 Blog',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Alex ',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Sample Testimonial',
+      STARTER_TESTIMONIALS_ITEM_URL: 'https://mindset.onthewifi.com/'
     },
     {
-      STARTER_TESTIMONIALS_ITEM_TEXT: '灰常感谢大佬的博客项目，能将博客和notion结合起来，这一直是我挺期待的博客模式。',
+      STARTER_TESTIMONIALS_ITEM_TEXT:
+        'I was hesitant to join at first, but I am so glad I did. The content and discussions within this mindset community have opened my eyes to new possibilities and helped me overcome self-doubt. The encouragement and guidance from fellow members have been invaluable in shaping my mindset for success. Truly a life-changing experience!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fafb21381-f51b-4fd0-9998-800dbeb64dbe%2Favatar.png?table=block&id=195935d2-0d8d-49fc-bd81-1db42ee50840&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog 站长',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Emily',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Sample Testimonial',
+      STARTER_TESTIMONIALS_ITEM_URL: 'https://mindset.onthewifi.com/'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT: '用好久了，太感谢了',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe4f391d7-7d65-4c05-a82c-c6e2c40f06e4%2Fa2a7641a26b367608c6ef28ce9b7e983_(2).png?table=block&id=a386eb0e-4c07-4b18-9ece-bba4e79ce21c&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'LUCEN考验辅导 站长',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://www.lucenczz.top/'
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'James',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Sample Testimonial',
+      STARTER_TESTIMONIALS_ITEM_URL: 'https://mindset.onthewifi.com/'
     }
   ],
 
@@ -230,7 +231,7 @@ const CONFIG = {
   STARTER_CONTACT_TITLE: 'Contact Us',
   STARTER_CONTACT_TEXT: "Tell us about the issues you're experiencing.",
   STARTER_CONTACT_LOCATION_TITLE: 'Our Location',
-  STARTER_CONTACT_LOCATION_TEXT: 'China, Fujian',
+  STARTER_CONTACT_LOCATION_TEXT: 'Wordwide',
   STARTER_CONTACT_EMAIL_TITLE: 'How can we assist you?',
   STARTER_CONTACT_EMAIL_TEXT: 'mindset.community.email@gmail.com',
 
