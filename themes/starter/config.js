@@ -20,7 +20,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_2_URL: 'https://discord.com/servers/mindset-community-783713892131536927', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: null, // 英雄区按钮2的图标，不需要则留空
 
-  STARTER_HERO_PREVIEW_IMAGE: 'https://www.youtube.com/embed/92JawhgmzaA?si=PIeMuEsLCIDlZeQk', // 产品预览图 ，默认读取public目录下图片
+  STARTER_HERO_PREVIEW_IMAGE: 'https://www.youtube.com/embed/WQgb9SQQ3rE?si=2D3Pbg7e89XKQ_9x', // 产品预览图 ，默认读取public目录下图片
 
   // 顶部右侧导航暗流
   STARTER_NAV_BUTTON_1_TEXT: 'Articles',
@@ -189,7 +189,7 @@ const CONFIG = {
     'We regularly release early access content to our member subscribers to provide them with exclusive updates and insights. You can expect new content to be available for early access on a regular basis, keeping you informed and engaged.',
 
   // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+  STARTER_TEAM_ENABLE: false, // 团队成员区块开关
   STARTER_TEAM_TITLE: 'Team Members',
   STARTER_TEAM_TEXT_1: 'Our Development Team',
   STARTER_TEAM_TEXT_2: null,

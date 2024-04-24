@@ -41,6 +41,7 @@ import { AdSlot } from '@/components/GoogleAdsense'
 import { siteConfig } from '@/lib/config'
 import { isBrowser } from '@/lib/utils'
 import { loadWowJS } from '@/lib/plugins/wow'
+import YandexRTBAdvertisement from '@/components/YandexAds'
 
 /**
  * 基础布局 采用上中下布局，移动端使用顶部侧边导航栏
@@ -281,7 +282,7 @@ const LayoutSlug = props => {
                 {post && <NotionPage post={post} />}
                 <WWAds orientation='horizontal' className='w-full' />
               </section>
-
+              <YandexRTBAdvertisement />
               {/* 分享 */}
               <ShareBar post={post} />
               {post?.type === 'Post' && (
