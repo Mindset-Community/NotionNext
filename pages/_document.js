@@ -13,6 +13,8 @@ class MyDocument extends Document {
       <Html lang={BLOG.LANG}>
         <Head>
           <meta name='yandex-verification' content='622aa0408012f881' />
+          <script>window.yaContextCb=window.yaContextCb||[]</script>
+          <script src='https://yandex.ru/ads/system/context.js' async></script>
           <link rel='icon' href={`${BLOG.BLOG_FAVICON}`} />
           {/* 预加载字体 */}
           {BLOG.FONT_AWESOME && (
