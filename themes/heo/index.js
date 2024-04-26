@@ -8,7 +8,7 @@
 
 import CONFIG from './config'
 import { useEffect, useState } from 'react'
-import Footer from './components/Footer'
+
 import SideRight from './components/SideRight'
 import NavBar from './components/NavBar'
 import { useGlobal } from '@/lib/global'
@@ -42,6 +42,8 @@ import { siteConfig } from '@/lib/config'
 import { isBrowser } from '@/lib/utils'
 import { loadWowJS } from '@/lib/plugins/wow'
 import YandexRTBAdvertisement from '@/components/YandexAds'
+import MailChimpForm from './components/MailChimpForm'
+import { Footer } from '../starter/components/Footer'
 
 /**
  * 基础布局 采用上中下布局，移动端使用顶部侧边导航栏
@@ -289,6 +291,7 @@ const LayoutSlug = props => {
                 <div className='px-5'>
                   {/* 版权 */}
                   <ArticleCopyright {...props} />
+                  <MailChimpForm />
                   {/* 文章推荐 */}
                   <ArticleRecommend {...props} />
                   {/* 上一篇\下一篇文章 */}

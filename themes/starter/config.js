@@ -289,6 +289,7 @@ const CONFIG = {
       TITLE: 'About Us',
       LINK_GROUP: [
         { TITLE: 'Homepage', URL: '/#home' },
+        { TITLE: 'Contact Us', URL: '/contact-us' },
         { TITLE: 'Store', URL: 'https://payhip.com/mindsetstore' }
       ]
     },
