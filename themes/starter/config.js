@@ -15,7 +15,7 @@ const CONFIG = {
     'Transform Your Mindset, Transform Your Life: Empowering Your Journey to Success with Insightful Content and Valuable Strategies at Mindset', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'Start your experience now!', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL: 'https://nas.io/mindset-community-lc9k', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_URL: 'https://payhip.com/b/PFTtn', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Discord Server', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://discord.com/servers/mindset-community-783713892131536927', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: null, // 英雄区按钮2的图标，不需要则留空
@@ -27,7 +27,7 @@ const CONFIG = {
   STARTER_NAV_BUTTON_1_URL: '/archive',
 
   STARTER_NAV_BUTTON_2_TEXT: 'Join Now!',
-  STARTER_NAV_BUTTON_2_URL: 'https://nas.io/mindset-community-lc9k',
+  STARTER_NAV_BUTTON_2_URL: 'https://payhip.com/b/PFTtn',
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
@@ -38,22 +38,22 @@ const CONFIG = {
   STARTER_FEATURE_1_TITLE_1: 'Digital Content', // 特性1
   STARTER_FEATURE_1_TEXT_1: 'Explore our digital content offering ebooks, resources, courses, and more!', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: 'Learn More', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://nas.io/member/products', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: 'Events', // 特性2
   STARTER_FEATURE_2_TEXT_1: 'Discover our upcoming events and join us for enriching experiences!', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: 'Learn More', // 特性2
-  STARTER_FEATURE_2_BUTTON_URL: 'https://nas.io/member/events', // 特性2
+  STARTER_FEATURE_2_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性2
 
   STARTER_FEATURE_3_TITLE_1: 'Chat Access', // 特性3
   STARTER_FEATURE_3_TEXT_1: 'Gain chat access for real-time communication and support.', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: 'Learn More', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://nas.io/member', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: 'Challenges', // 特性4
   STARTER_FEATURE_4_TEXT_1: 'Take on our challenges and achieve new heights!', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: 'Learn More', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://nas.io/member/challenges', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
@@ -74,33 +74,33 @@ const CONFIG = {
   STARTER_PRICING_TEXT_1: null,
   STARTER_PRICING_TEXT_2: null,
 
-  STARTER_PRICING_1_TITLE: 'Trial',
-  STARTER_PRICING_1_PRICE: 'Free',
-  STARTER_PRICING_1_PRICE_CURRENCY: null,
-  STARTER_PRICING_1_PRICE_PERIOD: null,
-  STARTER_PRICING_1_HEADER: null,
+  STARTER_PRICING_1_TITLE: 'Basic Tier',
+  STARTER_PRICING_1_PRICE: '10',
+  STARTER_PRICING_1_PRICE_CURRENCY: '$',
+  STARTER_PRICING_1_PRICE_PERIOD: 'Monthly',
+  STARTER_PRICING_1_HEADER: '7 Day Free Trial',
   STARTER_PRICING_1_FEATURES: 'Chat Access, Unlocked Content', // 英文逗号隔开
   STARTER_PRICING_1_BUTTON_TEXT: 'Start Now!',
-  STARTER_PRICING_1_BUTTON_URL: 'https://nas.io/mindset-community-lc9k?discountCode=7DAYTRIAL',
+  STARTER_PRICING_1_BUTTON_URL: 'https://payhip.com/order?link=PFTtn&pricing_plan=N9G8VJVJzV',
 
   STARTER_PRICING_2_TAG: 'Popular',
-  STARTER_PRICING_2_TITLE: 'Basic',
-  STARTER_PRICING_2_PRICE: '49.99',
+  STARTER_PRICING_2_TITLE: 'Standard Tier',
+  STARTER_PRICING_2_PRICE: '25',
   STARTER_PRICING_2_PRICE_CURRENCY: '$',
   STARTER_PRICING_2_PRICE_PERIOD: 'Monthly',
   STARTER_PRICING_2_HEADER: 'Access all features',
   STARTER_PRICING_2_FEATURES: 'Chat Access,Courses,Digital Content,Early Content,Unlocked Content', // 英文逗号隔开
   STARTER_PRICING_2_BUTTON_TEXT: 'Join Now!',
-  STARTER_PRICING_2_BUTTON_URL: 'https://nas.io/mindset-community-lc9k',
+  STARTER_PRICING_2_BUTTON_URL: 'https://payhip.com/order?link=PFTtn&pricing_plan=lKzydMdgWX',
 
-  STARTER_PRICING_3_TITLE: 'Premium',
-  STARTER_PRICING_3_PRICE: '399.99',
+  STARTER_PRICING_3_TITLE: 'Premium Tier',
+  STARTER_PRICING_3_PRICE: '50',
   STARTER_PRICING_3_PRICE_CURRENCY: '$',
-  STARTER_PRICING_3_PRICE_PERIOD: 'Annually',
+  STARTER_PRICING_3_PRICE_PERIOD: 'Monthly',
   STARTER_PRICING_3_HEADER: 'Access all features',
   STARTER_PRICING_3_FEATURES: 'Chat Access,Courses,Digital Content,Early Content,Unlocked Content,Coaching', // 英文逗号隔开
   STARTER_PRICING_3_BUTTON_TEXT: 'Join Now!',
-  STARTER_PRICING_3_BUTTON_URL: 'https://nas.io/mindset-community-lc9k',
+  STARTER_PRICING_3_BUTTON_URL: 'https://payhip.com/order?link=PFTtn&pricing_plan=18B1898MzZ',
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
@@ -301,6 +301,7 @@ const CONFIG = {
         { TITLE: 'Discord', URL: 'https://discord.com/servers/mindset-community-783713892131536927' },
         { TITLE: 'Telegram', URL: 'https://t.me/mindset_community' },
         { TITLE: 'Instagram', URL: 'https://www.instagram.com/mindset.network.888/' },
+        { TITLE: 'Twitter', URL: 'https://twitter.com/EmailMinds40535' },
         { TITLE: 'Tiktok', URL: 'https://www.tiktok.com/@mindset.onthewifi' }
       ]
     },
