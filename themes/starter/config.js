@@ -113,12 +113,12 @@ const CONFIG = {
   STARTER_TESTIMONIALS_ITEMS: [
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        "I've been a member of Mindset for months now, and I can't imagine my workflow without it. The community is fantastic, and the perks that come with membership keep getting better. It's worth every penny!",
+        "OMG, I just gotta gush about Mindset! 🥰 It's seriously changed my life!  I felt so failed and overwhelmed, like I was drowning in an ocean of doubts and negativity. But then, poof, Mindset swooped in like a magical unicorn and sprinkled its positivity all over me!",
       STARTER_TESTIMONIALS_ITEM_AVATAR:
-        'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Ryan',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Sample Testimonial',
-      STARTER_TESTIMONIALS_ITEM_URL: 'https://mindset.onthewifi.com/'
+        'https://images-ext-1.discordapp.net/external/mEiRezeLg_zfQBzAkACwy6qStoV6Usn-NE1tlfFXlGI/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/1191506786092581034/9aba0d57bac76854d3f56a943e78367b.png?format=webp&quality=lossless',
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Marilyn',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Testimonial',
+      STARTER_TESTIMONIALS_ITEM_URL: 'https://payhip.com/bunnyscolorstore'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
