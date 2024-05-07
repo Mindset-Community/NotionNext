@@ -17,10 +17,12 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_TEXT: 'Start your experience now!', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL: 'https://payhip.com/b/PFTtn', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Discord Server', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://discord.com/servers/mindset-community-783713892131536927', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL:
+    'https://discord.com/servers/mindset-community-783713892131536927', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: null, // 英雄区按钮2的图标，不需要则留空
 
-  STARTER_HERO_PREVIEW_IMAGE: 'https://www.youtube.com/embed/WQgb9SQQ3rE?si=2D3Pbg7e89XKQ_9x', // 产品预览图 ，默认读取public目录下图片
+  STARTER_HERO_PREVIEW_IMAGE:
+    'https://www.youtube.com/embed/WQgb9SQQ3rE?si=2D3Pbg7e89XKQ_9x', // 产品预览图 ，默认读取public目录下图片
 
   // 顶部右侧导航暗流
   STARTER_NAV_BUTTON_1_TEXT: 'Articles',
@@ -36,17 +38,20 @@ const CONFIG = {
   STARTER_FEATURE_TEXT_2: null, // 特性
 
   STARTER_FEATURE_1_TITLE_1: 'Digital Content', // 特性1
-  STARTER_FEATURE_1_TEXT_1: 'Explore our digital content offering ebooks, resources, courses, and more!', // 特性1
+  STARTER_FEATURE_1_TEXT_1:
+    'Explore our digital content offering ebooks, resources, courses, and more!', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: 'Learn More', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: 'Events', // 特性2
-  STARTER_FEATURE_2_TEXT_1: 'Discover our upcoming events and join us for enriching experiences!', // 特性2
+  STARTER_FEATURE_2_TEXT_1:
+    'Discover our upcoming events and join us for enriching experiences!', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: 'Learn More', // 特性2
   STARTER_FEATURE_2_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性2
 
   STARTER_FEATURE_3_TITLE_1: 'Chat Access', // 特性3
-  STARTER_FEATURE_3_TEXT_1: 'Gain chat access for real-time communication and support.', // 特性3
+  STARTER_FEATURE_3_TEXT_1:
+    'Gain chat access for real-time communication and support.', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: 'Learn More', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性3
 
@@ -81,7 +86,8 @@ const CONFIG = {
   STARTER_PRICING_1_HEADER: '7 Day Free Trial',
   STARTER_PRICING_1_FEATURES: 'Chat Access, Unlocked Content', // 英文逗号隔开
   STARTER_PRICING_1_BUTTON_TEXT: 'Start Now!',
-  STARTER_PRICING_1_BUTTON_URL: 'https://payhip.com/order?link=PFTtn&pricing_plan=N9G8VJVJzV',
+  STARTER_PRICING_1_BUTTON_URL:
+    'https://payhip.com/order?link=PFTtn&pricing_plan=N9G8VJVJzV',
 
   STARTER_PRICING_2_TAG: 'Popular',
   STARTER_PRICING_2_TITLE: 'Standard Tier',
@@ -89,18 +95,22 @@ const CONFIG = {
   STARTER_PRICING_2_PRICE_CURRENCY: '$',
   STARTER_PRICING_2_PRICE_PERIOD: 'Monthly',
   STARTER_PRICING_2_HEADER: 'Access all features',
-  STARTER_PRICING_2_FEATURES: 'Chat Access,Courses,Digital Content,Early Content,Unlocked Content', // 英文逗号隔开
+  STARTER_PRICING_2_FEATURES:
+    'Chat Access,Courses,Digital Content,Early Content,Unlocked Content', // 英文逗号隔开
   STARTER_PRICING_2_BUTTON_TEXT: 'Join Now!',
-  STARTER_PRICING_2_BUTTON_URL: 'https://payhip.com/order?link=PFTtn&pricing_plan=lKzydMdgWX',
+  STARTER_PRICING_2_BUTTON_URL:
+    'https://payhip.com/order?link=PFTtn&pricing_plan=lKzydMdgWX',
 
   STARTER_PRICING_3_TITLE: 'Premium Tier',
   STARTER_PRICING_3_PRICE: '50',
   STARTER_PRICING_3_PRICE_CURRENCY: '$',
   STARTER_PRICING_3_PRICE_PERIOD: 'Monthly',
   STARTER_PRICING_3_HEADER: 'Access all features',
-  STARTER_PRICING_3_FEATURES: 'Chat Access,Courses,Digital Content,Early Content,Unlocked Content,Coaching', // 英文逗号隔开
+  STARTER_PRICING_3_FEATURES:
+    'Chat Access,Courses,Digital Content,Early Content,Unlocked Content,Coaching', // 英文逗号隔开
   STARTER_PRICING_3_BUTTON_TEXT: 'Join Now!',
-  STARTER_PRICING_3_BUTTON_URL: 'https://payhip.com/order?link=PFTtn&pricing_plan=18B1898MzZ',
+  STARTER_PRICING_3_BUTTON_URL:
+    'https://payhip.com/order?link=PFTtn&pricing_plan=18B1898MzZ',
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
@@ -170,9 +180,11 @@ const CONFIG = {
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
   STARTER_FAQ_TITLE: 'Frequently Asked Questions (FAQ)',
   STARTER_FAQ_TEXT_1: 'Do you have any questions? Please see here.',
-  STARTER_FAQ_TEXT_2: 'These FAQs aim to address common queries and provide clarity.',
+  STARTER_FAQ_TEXT_2:
+    'These FAQs aim to address common queries and provide clarity.',
 
-  STARTER_FAQ_1_QUESTION: 'How do I access the chat feature as a member subscriber?',
+  STARTER_FAQ_1_QUESTION:
+    'How do I access the chat feature as a member subscriber?',
   STARTER_FAQ_1_ANSWER:
     'As a member subscriber, you can access the chat feature by logging into your account and navigating to the community section where you can engage with other members in real-time discussions.',
 
@@ -180,7 +192,8 @@ const CONFIG = {
   STARTER_FAQ_2_ANSWER:
     'Yes, our courses cater to a wide range of skill levels, from beginners to advanced learners. You can choose courses based on your interests and current proficiency to enhance your knowledge and skills.',
 
-  STARTER_FAQ_3_QUESTION: 'Can I download the digital books and resources for offline access?',
+  STARTER_FAQ_3_QUESTION:
+    'Can I download the digital books and resources for offline access?',
   STARTER_FAQ_3_ANSWER:
     'Yes, you can download our digital books and resources for offline access. Simply click on the download option next to the resource you wish to save and enjoy access anytime, anywhere.',
 
@@ -236,7 +249,8 @@ const CONFIG = {
   STARTER_CONTACT_EMAIL_TEXT: 'mindset.community.email@gmail.com',
 
   // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://noteforms.com/forms/noteforms-as9gc7', // 基于NoteForm创建，将留言数据存在Notion中
+  STARTER_CONTACT_MSG_EXTERNAL_URL:
+    'https://noteforms.com/forms/noteforms-as9gc7', // 基于NoteForm创建，将留言数据存在Notion中
   //   自定义留言表单，以下几个配置暂时废弃
   // STARTER_CONTACT_MSG_TITLE: 'Leave us a message.',
   // STARTER_CONTACT_MSG_NAME: 'Name',
@@ -281,7 +295,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '"We create digital experiences for brands and companies through technology."',
+  STARTER_FOOTER_SLOGAN: '"Stay Focused, Stay Elevated, Mindset."',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
@@ -290,27 +304,46 @@ const CONFIG = {
       LINK_GROUP: [
         { TITLE: 'Homepage', URL: '/#home' },
         { TITLE: 'Contact Us', URL: '/contact-us' },
+        { TITLE: 'Join Us', URL: '/?theme=starter' },
         { TITLE: 'Store', URL: 'https://payhip.com/mindsetstore' }
       ]
     },
     {
       TITLE: 'Social Media',
       LINK_GROUP: [
-        { TITLE: 'Facebook', URL: 'https://www.facebook.com/people/Mindset-Community/61556389438584/' },
+        {
+          TITLE: 'Facebook',
+          URL: 'https://www.facebook.com/people/Mindset-Community/61556389438584/'
+        },
         { TITLE: 'ВКонтакте', URL: 'https://vk.com/mindset.community' },
-        { TITLE: 'Discord', URL: 'https://discord.com/servers/mindset-community-783713892131536927' },
+        {
+          TITLE: 'Discord',
+          URL: 'https://discord.com/servers/mindset-community-783713892131536927'
+        },
         { TITLE: 'Telegram', URL: 'https://t.me/mindset_community' },
-        { TITLE: 'Instagram', URL: 'https://www.instagram.com/mindset.network.888/' },
-        { TITLE: 'Twitter', URL: 'https://twitter.com/EmailMinds40535' },
+        {
+          TITLE: 'Instagram',
+          URL: 'https://www.instagram.com/mindset.onthewifi/'
+        },
+        { TITLE: 'Twitter', URL: 'https://twitter.com/mindsetonwifi' },
         { TITLE: 'Tiktok', URL: 'https://www.tiktok.com/@mindset.onthewifi' }
       ]
     },
     {
       TITLE: 'Youtube',
       LINK_GROUP: [
-        { TITLE: 'Health & Wellness', URL: 'https://www.youtube.com/@mindset.wellness.888' },
-        { TITLE: 'Commerce', URL: 'https://www.youtube.com/@mindset.commerce.888' },
-        { TITLE: 'Finance', URL: 'https://www.youtube.com/@mindset.finance.888' }
+        {
+          TITLE: 'Health & Wellness',
+          URL: 'https://www.youtube.com/@mindset.wellness.888'
+        },
+        {
+          TITLE: 'Commerce',
+          URL: 'https://www.youtube.com/@mindset.commerce.888'
+        },
+        {
+          TITLE: 'Finance',
+          URL: 'https://www.youtube.com/@mindset.finance.888'
+        }
       ]
     }
   ],
@@ -327,8 +360,10 @@ const CONFIG = {
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
   // 404页面的提示语
-  STARTER_404_TITLE: "We seem to be unable to find the page you're looking for.",
-  STARTER_404_TEXT: "Sorry! The page you are looking for doesn't exist. It may have been moved or deleted.",
+  STARTER_404_TITLE:
+    "We seem to be unable to find the page you're looking for.",
+  STARTER_404_TEXT:
+    "Sorry! The page you are looking for doesn't exist. It may have been moved or deleted.",
   STARTER_404_BACK: 'Back to Homepage',
 
   STARTER_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
