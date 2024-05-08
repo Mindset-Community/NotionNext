@@ -12,6 +12,10 @@ class MyDocument extends Document {
     return (
       <Html lang={BLOG.LANG}>
         <Head>
+          <script
+            async
+            src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8437419081527400'
+            crossorigin='anonymous'></script>
           <link rel='icon' href={`${BLOG.BLOG_FAVICON}`} />
           {/* 预加载字体 */}
           {BLOG.FONT_AWESOME && (
