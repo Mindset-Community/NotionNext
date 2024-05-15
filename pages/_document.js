@@ -12,7 +12,7 @@ class MyDocument extends Document {
     return (
       <Html lang={BLOG.LANG}>
         <Head>
-          <script src='https://cdn.jsdelivr.net/gh/Mindset-Community/live2d-widget@master/autoload.js'></script>
+          <script src='https://cdn.jsdelivr.net/gh/Mindset-Community/live2d-widget@0.2.6/autoload.js'></script>
           <script
             async
             src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8437419081527400'
