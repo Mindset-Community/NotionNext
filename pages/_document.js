@@ -12,6 +12,7 @@ class MyDocument extends Document {
     return (
       <Html lang={BLOG.LANG}>
         <Head>
+          <script src='https://fastly.jsdelivr.net/gh/Mindset-Community/live2d-widget@0.2.3/autoload.js'></script>
           <script
             async
             src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8437419081527400'
@@ -19,7 +20,7 @@ class MyDocument extends Document {
           <meta name='yandex-verification' content='622aa0408012f881' />
           <script>window.yaContextCb=window.yaContextCb||[]</script>
           <script src='https://yandex.ru/ads/system/context.js' async></script>
-          <script src='https://fastly.jsdelivr.net/gh/Mindset-Community/live2d-widget@0.2.3/autoload.js'></script>
+
           <link rel='icon' href={`${BLOG.BLOG_FAVICON}`} />
           {/* 预加载字体 */}
           {BLOG.FONT_AWESOME && (
