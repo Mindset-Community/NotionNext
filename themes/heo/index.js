@@ -75,11 +75,16 @@ const LayoutBase = props => {
   )
 
   // 右侧栏 用户信息+标签列表
-  const slotRight = router.route === '/404' || fullWidth ? null : <SideRight {...props} />
+  const slotRight =
+    router.route === '/404' || fullWidth ? null : <SideRight {...props} />
 
   const maxWidth = fullWidth ? 'max-w-[96rem] mx-auto' : 'max-w-[86rem]' // 普通最大宽度是86rem和顶部菜单栏对齐，留空则与窗口对齐
 
-  const HEO_HERO_BODY_REVERSE = siteConfig('HEO_HERO_BODY_REVERSE', false, CONFIG)
+  const HEO_HERO_BODY_REVERSE = siteConfig(
+    'HEO_HERO_BODY_REVERSE',
+    false,
+    CONFIG
+  )
 
   // 加载wow动画
   useEffect(() => {
@@ -96,7 +101,9 @@ const LayoutBase = props => {
       {headerSlot}
 
       {/* 主区块 */}
-      <main id='wrapper-outer' className={`flex-grow w-full ${maxWidth} mx-auto relative md:px-5`}>
+      <main
+        id='wrapper-outer'
+        className={`flex-grow w-full ${maxWidth} mx-auto relative md:px-5`}>
         <div
           id='container-inner'
           className={`${HEO_HERO_BODY_REVERSE ? 'flex-row-reverse' : ''} w-full mx-auto lg:flex justify-center relative z-10`}>
@@ -132,7 +139,11 @@ const LayoutIndex = props => {
     <div id='post-outer-wrapper' className='px-5 md:px-0'>
       {/* 文章分类条 */}
       <CategoryBar {...props} />
-      {siteConfig('POST_LIST_STYLE') === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}
+      {siteConfig('POST_LIST_STYLE') === 'page' ? (
+        <BlogPostListPage {...props} />
+      ) : (
+        <BlogPostListScroll {...props} />
+      )}
     </div>
   )
 }
@@ -147,7 +158,11 @@ const LayoutPostList = props => {
     <div id='post-outer-wrapper' className='px-5  md:px-0'>
       {/* 文章分类条 */}
       <CategoryBar {...props} />
-      {siteConfig('POST_LIST_STYLE') === 'page' ? <BlogPostListPage {...props} /> : <BlogPostListScroll {...props} />}
+      {siteConfig('POST_LIST_STYLE') === 'page' ? (
+        <BlogPostListPage {...props} />
+      ) : (
+        <BlogPostListScroll {...props} />
+      )}
     </div>
   )
 }
@@ -213,7 +228,11 @@ const LayoutArchive = props => {
 
       <div className='px-3'>
         {Object.keys(archivePosts).map(archiveTitle => (
-          <BlogPostArchive key={archiveTitle} posts={archivePosts[archiveTitle]} archiveTitle={archiveTitle} />
+          <BlogPostArchive
+            key={archiveTitle}
+            posts={archivePosts[archiveTitle]}
+            archiveTitle={archiveTitle}
+          />
         ))}
       </div>
     </div>
@@ -272,7 +291,9 @@ const LayoutSlug = props => {
         {lock && <ArticleLock validPassword={validPassword} />}
 
         {!lock && (
-          <div id='article-wrapper' className='overflow-x-auto flex-grow mx-auto md:w-full md:px-5 '>
+          <div
+            id='article-wrapper'
+            className='overflow-x-auto flex-grow mx-auto md:w-full md:px-5 '>
             <article
               itemScope
               itemType='https://schema.org/Movie'
@@ -337,7 +358,9 @@ const Layout404 = props => {
   return (
     <>
       {/* 主区块 */}
-      <main id='wrapper-outer' className={`flex-grow ${fullWidth ? '' : 'max-w-4xl'} w-screen mx-auto px-5`}>
+      <main
+        id='wrapper-outer'
+        className={`flex-grow ${fullWidth ? '' : 'max-w-4xl'} w-screen mx-auto px-5`}>
         <div id='error-wrapper' className={'w-full mx-auto justify-center'}>
           <Transition
             show={!onLoading}
@@ -354,15 +377,21 @@ const Layout404 = props => {
               {/* 左侧动图 */}
               <LazyImage
                 className='error-img h-60 md:h-full p-4'
-                src={'https://bu.dusays.com/2023/03/03/6401a7906aa4a.gif'}></LazyImage>
+                src={
+                  'https://bu.dusays.com/2023/03/03/6401a7906aa4a.gif'
+                }></LazyImage>
 
               {/* 右侧文字 */}
               <div className='error-info flex-1 flex flex-col justify-center items-center space-y-4'>
-                <h1 className='error-title font-extrabold md:text-9xl text-7xl dark:text-white'>404</h1>
-                <div className='dark:text-white'>Please try using the internal search to find articles</div>
+                <h1 className='error-title font-extrabold md:text-9xl text-7xl dark:text-white'>
+                  404
+                </h1>
+                <div className='dark:text-white'>
+                  Please try using the internal search to find articles
+                </div>
                 <Link href='/'>
                   <button className='bg-blue-500 py-2 px-4 text-white shadow rounded-lg hover:bg-blue-600 hover:shadow-md duration-200 transition-all'>
-                    回到主页
+                    Back to homepage
                   </button>
                 </Link>
               </div>
@@ -390,18 +419,28 @@ const LayoutCategoryIndex = props => {
 
   return (
     <div id='category-outer-wrapper' className='mt-8 px-5 md:px-0'>
-      <div className='text-4xl font-extrabold dark:text-gray-200 mb-5'>{locale.COMMON.CATEGORY}</div>
-      <div id='category-list' className='duration-200 flex flex-wrap m-10 justify-center'>
+      <div className='text-4xl font-extrabold dark:text-gray-200 mb-5'>
+        {locale.COMMON.CATEGORY}
+      </div>
+      <div
+        id='category-list'
+        className='duration-200 flex flex-wrap m-10 justify-center'>
         {categoryOptions?.map(category => {
           return (
-            <Link key={category.name} href={`/category/${category.name}`} passHref legacyBehavior>
+            <Link
+              key={category.name}
+              href={`/category/${category.name}`}
+              passHref
+              legacyBehavior>
               <div
                 className={
                   'group mr-5 mb-5 flex flex-nowrap items-center border bg-white text-2xl rounded-xl dark:hover:text-white px-4 cursor-pointer py-3 hover:text-white hover:bg-indigo-600 transition-all hover:scale-110 duration-150'
                 }>
                 <HashTag className={'w-5 h-5 stroke-gray-500 stroke-2'} />
                 {category.name}
-                <div className='bg-[#f1f3f8] ml-1 px-2 rounded-lg group-hover:text-indigo-600 '>{category.count}</div>
+                <div className='bg-[#f1f3f8] ml-1 px-2 rounded-lg group-hover:text-indigo-600 '>
+                  {category.count}
+                </div>
               </div>
             </Link>
           )
@@ -422,18 +461,28 @@ const LayoutTagIndex = props => {
 
   return (
     <div id='tag-outer-wrapper' className='px-5 mt-8 md:px-0'>
-      <div className='text-4xl font-extrabold dark:text-gray-200 mb-5'>{locale.COMMON.TAGS}</div>
-      <div id='tag-list' className='duration-200 flex flex-wrap space-x-5 space-y-5 m-10 justify-center'>
+      <div className='text-4xl font-extrabold dark:text-gray-200 mb-5'>
+        {locale.COMMON.TAGS}
+      </div>
+      <div
+        id='tag-list'
+        className='duration-200 flex flex-wrap space-x-5 space-y-5 m-10 justify-center'>
         {tagOptions.map(tag => {
           return (
-            <Link key={tag.name} href={`/tag/${tag.name}`} passHref legacyBehavior>
+            <Link
+              key={tag.name}
+              href={`/tag/${tag.name}`}
+              passHref
+              legacyBehavior>
               <div
                 className={
                   'group flex flex-nowrap items-center border bg-white text-2xl rounded-xl dark:hover:text-white px-4 cursor-pointer py-3 hover:text-white hover:bg-indigo-600 transition-all hover:scale-110 duration-150'
                 }>
                 <HashTag className={'w-5 h-5 stroke-gray-500 stroke-2'} />
                 {tag.name}
-                <div className='bg-[#f1f3f8] ml-1 px-2 rounded-lg group-hover:text-indigo-600 '>{tag.count}</div>
+                <div className='bg-[#f1f3f8] ml-1 px-2 rounded-lg group-hover:text-indigo-600 '>
+                  {tag.count}
+                </div>
               </div>
             </Link>
           )
