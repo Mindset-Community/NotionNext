@@ -15,7 +15,7 @@ const CONFIG = {
     'Transform Your Mindset, Transform Your Life: Empowering Your Journey to Success with Insightful Content and Valuable Strategies at Mindset', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'Start your experience now!', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL: 'https://payhip.com/b/PFTtn', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_URL: 'https://whop.com/mindset-community/', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Discord Server', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL:
     'https://discord.com/servers/mindset-community-783713892131536927', // 英雄区按钮
@@ -29,7 +29,7 @@ const CONFIG = {
   STARTER_NAV_BUTTON_1_URL: '/archive',
 
   STARTER_NAV_BUTTON_2_TEXT: 'Join Now!',
-  STARTER_NAV_BUTTON_2_URL: 'https://payhip.com/b/PFTtn',
+  STARTER_NAV_BUTTON_2_URL: 'https://whop.com/mindset-community/',
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
@@ -41,24 +41,24 @@ const CONFIG = {
   STARTER_FEATURE_1_TEXT_1:
     'Explore our digital content offering ebooks, resources, courses, and more!', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: 'Learn More', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: 'https://whop.com/mindset-community/', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: 'Events', // 特性2
   STARTER_FEATURE_2_TEXT_1:
     'Discover our upcoming events and join us for enriching experiences!', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: 'Learn More', // 特性2
-  STARTER_FEATURE_2_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性2
+  STARTER_FEATURE_2_BUTTON_URL: 'https://whop.com/mindset-community/', // 特性2
 
   STARTER_FEATURE_3_TITLE_1: 'Chat Access', // 特性3
   STARTER_FEATURE_3_TEXT_1:
     'Gain chat access for real-time communication and support.', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: 'Learn More', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: 'https://whop.com/mindset-community/', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: 'Challenges', // 特性4
   STARTER_FEATURE_4_TEXT_1: 'Take on our challenges and achieve new heights!', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: 'Learn More', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://payhip.com/b/PFTtn', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: 'https://whop.com/mindset-community/', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
@@ -79,19 +79,19 @@ const CONFIG = {
   STARTER_PRICING_TEXT_1: null,
   STARTER_PRICING_TEXT_2: null,
 
-  STARTER_PRICING_1_TITLE: 'Basic Tier',
-  STARTER_PRICING_1_PRICE: '10',
-  STARTER_PRICING_1_PRICE_CURRENCY: '$',
-  STARTER_PRICING_1_PRICE_PERIOD: 'Monthly',
-  STARTER_PRICING_1_HEADER: '7 Day Free Trial',
+  STARTER_PRICING_1_TITLE: 'Member Tier',
+  STARTER_PRICING_1_PRICE: 'FREE',
+  STARTER_PRICING_1_PRICE_CURRENCY: null,
+  STARTER_PRICING_1_PRICE_PERIOD: null,
+  STARTER_PRICING_1_HEADER: 'Access features',
   STARTER_PRICING_1_FEATURES: 'Chat Access, Unlocked Content', // 英文逗号隔开
   STARTER_PRICING_1_BUTTON_TEXT: 'Start Now!',
   STARTER_PRICING_1_BUTTON_URL:
-    'https://payhip.com/order?link=PFTtn&pricing_plan=N9G8VJVJzV',
+    'https://whop.com/checkout/plan_gEhXRPiJAAc8G?d2c=true',
 
   STARTER_PRICING_2_TAG: 'Popular',
-  STARTER_PRICING_2_TITLE: 'Standard Tier',
-  STARTER_PRICING_2_PRICE: '25',
+  STARTER_PRICING_2_TITLE: 'Premium Member Tier',
+  STARTER_PRICING_2_PRICE: '50',
   STARTER_PRICING_2_PRICE_CURRENCY: '$',
   STARTER_PRICING_2_PRICE_PERIOD: 'Monthly',
   STARTER_PRICING_2_HEADER: 'Access all features',
@@ -99,18 +99,18 @@ const CONFIG = {
     'Chat Access,Courses,Digital Content,Early Content,Unlocked Content', // 英文逗号隔开
   STARTER_PRICING_2_BUTTON_TEXT: 'Join Now!',
   STARTER_PRICING_2_BUTTON_URL:
-    'https://payhip.com/order?link=PFTtn&pricing_plan=lKzydMdgWX',
+    'https://whop.com/checkout/plan_ABJqqwwzBoHc2?d2c=true',
 
-  STARTER_PRICING_3_TITLE: 'Premium Tier',
-  STARTER_PRICING_3_PRICE: '50',
+  STARTER_PRICING_3_TITLE: 'Exclusive Member Tier',
+  STARTER_PRICING_3_PRICE: '500',
   STARTER_PRICING_3_PRICE_CURRENCY: '$',
   STARTER_PRICING_3_PRICE_PERIOD: 'Monthly',
   STARTER_PRICING_3_HEADER: 'Access all features',
   STARTER_PRICING_3_FEATURES:
-    'Chat Access,Courses,Digital Content,Early Content,Unlocked Content,Coaching', // 英文逗号隔开
+    'Chat Access,Courses,Digital Content,Early Content,Coaching,Unlocked Content', // 英文逗号隔开
   STARTER_PRICING_3_BUTTON_TEXT: 'Join Now!',
   STARTER_PRICING_3_BUTTON_URL:
-    'https://payhip.com/order?link=PFTtn&pricing_plan=18B1898MzZ',
+    'https://whop.com/checkout/plan_AOydhqLoQ7ks1?d2c=true',
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
